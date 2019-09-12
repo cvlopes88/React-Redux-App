@@ -15,9 +15,10 @@ const Dogs = ({ getDog, dog, isFetching, error }) => {
 
   return (
     <>
+    <h1>wow</h1>
       <img src={dog}></img>
       
-      <button className="dogButton" onClick={getDog}>Get new quote</button>
+      <button className="dogButton" onClick={getDog}>Fetch Dog</button>
     </>
   );
 };
